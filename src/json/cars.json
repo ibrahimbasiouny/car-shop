@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "fileNumber": 123,
+    "name": "Honda",
+    "model": "Honda CRV",
+    "price": "$15.000.00",
+    "mainImage": "h1.jpg",
+    "images": ["h1.jpg", "h2.jpg", "h3.jpg", "h4.jpg"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,",
+    "uploadedon": "1 / 12 / 2020",
+    "year": "2020"
+  },
+  {
+    "id": 1,
+    "fileNumber": 541,
+    "name": "Chevrolet",
+    "model": "Chevrolet Optra",
+    "price": "$20.000.00",
+    "mainImage": "ch1.jpg",
+    "images": ["ch1.jpg", "ch2.jpg", "ch3.jpg", "ch4.jpg"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,",
+    "uploadedon": "20 / 6 / 2021",
+    "year": "2021"
+  },
+  {
+    "id": 2,
+    "fileNumber": 355,
+    "name": "Mercedes",
+    "model": "Mercedes Brabus",
+    "price": "$40.000.00",
+    "mainImage": "m1.jpg",
+    "images": ["m1.jpg", "m2.jpg", "m3.jpg", "m4.jpg"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,",
+    "uploadedon": "1 / 11 / 2019",
+    "year": "2019"
+  },
+  {
+    "id": 3,
+    "fileNumber": 845,
+    "name": "BMW",
+    "model": "BMW X6",
+    "price": "$35.000.00",
+    "mainImage": "bm1.jpg",
+    "images": ["bm1.jpg", "bm2.jpg", "bm3.jpg", "bm4.jpg"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,",
+    "uploadedon": "15 / 8 / 2022",
+    "year": "2022"
+  },
+  {
+    "id": 4,
+    "fileNumber": 354,
+    "name": "lamborghini",
+    "model": "lamborghini Aventador",
+    "price": "$55.000.00",
+    "mainImage": "la1.jpg",
+    "images": ["la1.jpg", "la2.jpg", "la3.jpg", "la4.jpg"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,",
+    "uploadedon": "20 / 6 / 2020",
+    "year": "2020"
+  },
+  {
+    "id": 5,
+    "fileNumber": 489,
+    "name": "Ferrari",
+    "model": "Ferrari SF90",
+    "price": "$60.000.00",
+    "mainImage": "fe1.jpg",
+    "images": ["fe1.jpg", "fe2.jpg", "fe3.jpg", "fe4.jpg"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,",
+    "uploadedon": "10 / 12 / 2022",
+    "year": "2022"
+  }
+]

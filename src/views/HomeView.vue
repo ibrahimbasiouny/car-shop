@@ -1,18 +1,30 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="home row">
+    <div class="col-2">
+      <Sidebar :carsData="myCars" />
+    </div>
+    <div class="col-10">
+      <Cars :carsData="myCars" />
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import Sidebar from "@/components/sidebar/Sidebar.vue";
+import Cars from "@/components/cars/Cars.vue";
+import getCarsJson from "@/json/cars.json";
+const components = {
+  Sidebar,
+  Cars,
+};
 export default {
   name: "HomeView",
-  components: {
-    HelloWorld,
+  data() {
+    return {
+      myCars: getCarsJson,
+    };
   },
+  components,
 };
 </script>

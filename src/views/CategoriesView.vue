@@ -1,5 +1,5 @@
 <template>
-  <div class="about-page">
+  <div class="categories-page">
     <button type="button" @click="goBack()" class="btn btn-danger button">
       back to Home
     </button>
@@ -9,7 +9,7 @@
 <script>
 // @ is an alias to /src
 export default {
-  name: "ApoutView",
+  name: "CategoriesView",
   components: {},
   methods: {
     goBack() {
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.about-page {
+.categories-page {
   text-align: center;
   .button {
     display: inline;
